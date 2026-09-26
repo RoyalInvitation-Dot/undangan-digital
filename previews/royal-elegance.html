@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Royal Elegance | Rona Invite</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Georgia, "Times New Roman", serif;
+      background: #f7f1e7;
+      color: #5b4636;
+    }
+
+    .invitation {
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 30px 15px;
+    }
+
+    .card {
+      width: 100%;
+      max-width: 520px;
+      min-height: 720px;
+      background:
+        radial-gradient(circle at top left, rgba(212,175,55,.15), transparent 30%),
+        radial-gradient(circle at bottom right, rgba(212,175,55,.12), transparent 30%),
+        #fffdf8;
+      border: 1px solid #d6b56a;
+      box-shadow: 0 15px 45px rgba(80,60,30,.15);
+      text-align: center;
+      padding: 55px 30px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .card::before,
+    .card::after {
+      content: "✦";
+      position: absolute;
+      color: #c9a44d;
+      font-size: 45px;
+      opacity: .5;
+    }
+
+    .card::before {
+      top: 20px;
+      left: 25px;
+    }
+
+    .card::after {
+      bottom: 20px;
+      right: 25px;
+    }
+
+    .brand {
+      font-size: 14px;
+      letter-spacing: 4px;
+      color: #b18a35;
+      text-transform: uppercase;
+      margin-bottom: 45px;
+    }
+
+    .small-text {
+      font-size: 15px;
+      letter-spacing: 2px;
+      margin-bottom: 18px;
+    }
+
+    h1 {
+      font-size: 46px;
+      font-weight: normal;
+      color: #9b772d;
+      margin-bottom: 10px;
+    }
+
+    .and {
+      font-size: 20px;
+      color: #b89a55;
+      margin: 8px 0;
+      font-style: italic;
+    }
+
+    .date {
+      margin-top: 35px;
+      padding: 18px;
+      border-top: 1px solid #d6b56a;
+      border-bottom: 1px solid #d6b56a;
+      font-size: 18px;
+      letter-spacing: 3px;
+    }
+
+    .message {
+      margin: 35px auto;
+      max-width: 380px;
+      font-size: 15px;
+      line-height: 1.8;
+    }
+
+    .button {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 13px 30px;
+      background: #b18a35;
+      color: white;
+      text-decoration: none;
+      border-radius: 30px;
+      font-family: Arial, sans-serif;
+      font-size: 14px;
+      transition: .3s;
+    }
+
+    .button:hover {
+      background: #8f6d27;
+      transform: translateY(-2px);
+    }
+
+    .footer {
+      margin-top: 40px;
+      font-size: 12px;
+      color: #9a8977;
+      letter-spacing: 1px;
+    }
+
+    @media (max-width: 480px) {
+      .card {
+        min-height: 680px;
+        padding: 45px 22px;
+      }
+
+      h1 {
+        font-size: 38px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <section class="invitation">
+
+    <div class="card">
+
+      <div class="brand">
+        Rona Invite
+      </div>
+
+      <div class="small-text">
+        The Wedding Of
+      </div>
+
+      <h1>Adrian</h1>
+
+      <div class="and">&amp;</div>
+
+      <h1>Aulia</h1>
+
+      <div class="date">
+        12 • 12 • 2026
+      </div>
+
+      <p class="message">
+        Dengan penuh kebahagiaan, kami mengundang
+        Bapak/Ibu/Saudara/i untuk hadir dan menjadi
+        bagian dari hari istimewa kami.
+      </p>
+
+      <a
+        class="button"
+        href="https://wa.me/6285774779700"
+        target="_blank">
+        Konfirmasi Kehadiran
+      </a>
+
+      <div class="footer">
+        Dengan penuh cinta ❤️
+      </div>
+
+    </div>
+
+  </section>
+
+</body>
+  </html>
